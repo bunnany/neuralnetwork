@@ -16,7 +16,7 @@ def iris_test(hidden_nodes, learning_rate, training_attempts):
             iris_parameters.append(parameters)
             species: str = iris[4]
             if species == "Iris-setosa":
-                iris_classifications.append([1.0, 0.0, 0.0])
+                iris_classifications.append([1.0, 0.0, 0.0])``
             elif species == "Iris-versicolor":
                 iris_classifications.append([0.0, 1.0, 0.0])
             else:
